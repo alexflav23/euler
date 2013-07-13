@@ -6,6 +6,7 @@ import scala.collection.mutable.ListBuffer;
 object LargetProductInAGrid {
 
   val data: ListBuffer[ListBuffer[Int]] = new ListBuffer;
+
   def read = {
     Source.fromFile("grid.in").getLines.foreach(line => {
       val numbers: ListBuffer[Int] = new ListBuffer;
