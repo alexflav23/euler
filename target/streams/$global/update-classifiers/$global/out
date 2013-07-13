@@ -1,199 +1,537 @@
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.10.2[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e005ce[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33f51a23[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.2 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.2 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.10.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.10.2 from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#specs2_2.10;1.14[0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;1.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b88671[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc48265[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.14.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2_2.10;1.14 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.14.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2_2.10;1.14[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.14.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2_2.10;1.14 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.14.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2_2.10;1.14[0m
+[0m[[0mdebug[0m] [0m	checking org.specs2#specs2_2.10;1.14 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#specs2_2.10;1.14 from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;1.14 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2-scalaz-core_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f2c4f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@571172d1[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2-scalaz-core_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2-scalaz-core_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0m	checking org.specs2#specs2-scalaz-core_2.10;7.0.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#specs2-scalaz-core_2.10;7.0.0 from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2-scalaz-core_2.10;7.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1058c14[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b2d901d[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0m	checking org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#scalaz-effect_2.10;7.0.0[0m
 [0m[[0minfo[0m] [0mResolving org.specs2#scalaz-effect_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@95cc12[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cb7477d[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#scalaz-effect_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#scalaz-effect_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0m	checking org.specs2#scalaz-effect_2.10;7.0.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#scalaz-effect_2.10;7.0.0 from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#scalaz-effect_2.10;7.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.specs2#scalaz-core_2.10;7.0.0[0m
 [0m[[0minfo[0m] [0mResolving org.specs2#scalaz-core_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e07508[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cfd271c[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#scalaz-core_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.specs2#scalaz-core_2.10;7.0.0 (resolved by sbt-chain): /Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0m	checking org.specs2#scalaz-core_2.10;7.0.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.specs2#scalaz-core_2.10;7.0.0 from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#scalaz-core_2.10;7.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=optional[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2_2.10;1.14 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2_2.10;1.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-effect_2.10;7.0.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-effect_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT->org.specs2#scalaz-core_2.10;7.0.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.specs2#scalaz-core_2.10;7.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=plugin[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=sources[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=docs[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\me\euler\target\resolution-cache\euler\euler$sources_javadoc_2.10\0.1-SNAPSHOT\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0mloadData of euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;1.14 / Number of dependencies = 10[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2-scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2-scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2-scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;1.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/alex/websudos/euler/target/resolution-cache/euler/euler$sources_javadoc_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in test: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in runtime-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.2 in compile-internal: excluding org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;1.14!specs2_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;1.14!specs2_2.10.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;1.14!specs2_2.10.jar(doc)[0m
@@ -209,17 +547,79 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(src)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 55ms :: artifacts dl 13ms[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT test produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in C:\me\euler\target\resolution-cache\reports\euler-euler$sources_javadoc_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (55ms resolve - 13ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 103ms :: artifacts dl 20ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;1.14 / Number of dependencies = 10[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2-scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2-scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2-scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;1.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2_2.10;1.14 / Number of dependencies = 10[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2-scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2-scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#scalaz-effect_2.10;7.0.0 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.specs2#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#scalaz-effect_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.specs2#specs2-scalaz-concurrent_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;1.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#scalaz-effect_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.specs2#scalaz-core_2.10;7.0.0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for euler#euler$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /Users/alex/websudos/euler/target/resolution-cache/reports/euler-euler$sources_javadoc_2.10/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (103ms resolve - 20ms download)[0m
