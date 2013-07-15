@@ -30,7 +30,6 @@ object LargeNumberSum {
 
     val end: Int = math.min(a.length, b.length) - 1
     for (i <- end to 0 by -1) {
-      //+=:
       val c: Int = a(i) + b(i) + carry;
       if (c >= 10) {
         carry = 1;
@@ -47,11 +46,20 @@ object LargeNumberSum {
     result
   }
 
+  def product(y: Int): ListBuffer[Int] = {
+    var c: ListBuffer[Int] = new ListBuffer
+    c += 2
+    for (i <- 1 to y) {
+      c = sum(c, c)
+    }
+    c
+  }
+
   def test = {
     var c = convert(numbers(0).toList.to[ListBuffer])
     for (i <- 1 to numbers.length - 1) {
       c = sum(c, convert(numbers(i).toList.to[ListBuffer]))
     }
-    println(c.take(10).mkString(""))
+
   }
 }
