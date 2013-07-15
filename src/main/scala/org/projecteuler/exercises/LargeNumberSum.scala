@@ -4,39 +4,54 @@ import scala.collection.mutable.ListBuffer;
 
 object LargeNumberSum {
 
-    implicit def charToInt(x: Char) = x.asDigit;
+  val numbers = Source.fromFile("numbers.in").getLines.toList.to[ListBuffer];
 
-    implicit def intListToChar(x: ListBuffer[Int]): ListBuffer[Char] =
-        for (c <- x) yield c.toChar
+  def convert(list: ListBuffer[Char]): ListBuffer[Int] = {
+    for (char <- list) yield char.asDigit;
+  }
 
-    val numbers = Source.fromFile("numbers.in").getLines.toList;
+  def sum(a: ListBuffer[Int], b: ListBuffer[Int]): ListBuffer[Int] = {
+    val result: ListBuffer[Int] = new ListBuffer;
+    var carry = 0;
 
-    def sum(a: ListBuffer[Char], b: ListBuffer[Char]): ListBuffer[Char] = {
-        val result: ListBuffer[Int] = new ListBuffer;
-        var carry = 0;
-        for (i <- a.length - 1 to 0 by -1) {
-            //+=:
-            val c = a(i) + b(i) + carry;
-            if (c >= 10) {
-                carry = 1;
-                (c % 10) +=: result
-            } else {
-                carry = 0
-                c +=: result
-            }
-        }
-        if (carry > 0) {
-            1.toChar +=: result
-        }
-        println(result)
-        result
+    if (a.length < b.length) {
+      var diff = b.length - a.length;
+      while (diff > 0) {
+        0 +=: a;
+        diff = diff - 1;
+      }
+    } else if (b.length < a.length) {
+      var diff = a.length - b.length;
+      while (diff > 0) {
+        0 +=: b;
+        diff = diff - 1;
+      }
     }
 
-    def test = {
-        println(sum("123".toList.to[ListBuffer], "8923".toList.to[ListBuffer]));
-        var c: ListBuffer[Char] = new ListBuffer;
-        for (i <- 1 to numbers.length - 2) {
-            c = sum(numbers(i).toList.to[ListBuffer], numbers(i + 1).toList.to[ListBuffer])
-        }
+    val end: Int = math.min(a.length, b.length) - 1
+    for (i <- end to 0 by -1) {
+      //+=:
+      val c: Int = a(i) + b(i) + carry;
+      if (c >= 10) {
+        carry = 1;
+        (c % 10) +=: result
+      } else {
+        carry = 0
+        c +=: result
+      }
     }
+    if (carry > 0) {
+      1 +=: result
+      carry = 0
+    }
+    result
+  }
+
+  def test = {
+    var c = convert(numbers(0).toList.to[ListBuffer])
+    for (i <- 1 to numbers.length - 1) {
+      c = sum(c, convert(numbers(i).toList.to[ListBuffer]))
+    }
+    println(c.take(10).mkString(""))
+  }
 }
