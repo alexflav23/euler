@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="euler"
+		module="euler$sources_javadoc_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20130712211438"/>
+	<dependencies>
+		<module organisation="org.specs2" name="specs2_2.10">
+			<revision name="1.14" status="release" pubdate="20130220001028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3590" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2_2.10/1.14/specs2_2.10-1.14.pom"/>
+				<caller organisation="euler" name="euler$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="specs2_2.10" type="jar" ext="jar" status="no" details="" size="6676172" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2_2.10/1.14/specs2_2.10-1.14.jar"/>
+					</artifact>
+					<artifact name="specs2_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4539439" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2_2.10/docs/specs2_2.10-1.14-javadoc.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2_2.10/1.14/specs2_2.10-1.14-javadoc.jar"/>
+					</artifact>
+					<artifact name="specs2_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="541254" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.14-sources.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2_2.10/1.14/specs2_2.10-1.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-scalaz-concurrent_2.10">
+			<revision name="7.0.0" status="release" pubdate="20130219232434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2838" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-concurrent_2.10/7.0.0/specs2-scalaz-concurrent_2.10-7.0.0.pom"/>
+				<caller organisation="euler" name="euler$sources_javadoc_2.10" conf="test, compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="specs2-scalaz-concurrent_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="482681" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/docs/specs2-scalaz-concurrent_2.10-7.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-concurrent_2.10/7.0.0/specs2-scalaz-concurrent_2.10-7.0.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-concurrent_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8830" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/srcs/specs2-scalaz-concurrent_2.10-7.0.0-sources.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-concurrent_2.10/7.0.0/specs2-scalaz-concurrent_2.10-7.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-concurrent_2.10" type="jar" ext="jar" status="no" details="" size="189256" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/jars/specs2-scalaz-concurrent_2.10-7.0.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-concurrent_2.10/7.0.0/specs2-scalaz-concurrent_2.10-7.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="scalaz-effect_2.10">
+			<revision name="7.0.0" status="release" pubdate="20121220110525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://typesafe.artifactoryonline.com/typesafe/repo/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.pom"/>
+				<caller organisation="euler" name="euler$sources_javadoc_2.10" conf="test, compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19736" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/srcs/scalaz-effect_2.10-7.0.0-sources.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-effect_2.10" type="jar" ext="jar" status="no" details="" size="391773" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar">
+						<origin-location is-local="false" location="http://typesafe.artifactoryonline.com/typesafe/repo/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.jar"/>
+					</artifact>
+					<artifact name="scalaz-effect_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="748246" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-effect_2.10/docs/scalaz-effect_2.10-7.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="scalaz-core_2.10">
+			<revision name="7.0.0" status="release" pubdate="20121220110704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2512" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://typesafe.artifactoryonline.com/typesafe/repo/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom"/>
+				<caller organisation="euler" name="euler$sources_javadoc_2.10" conf="test, compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.10" type="jar" ext="jar" status="no" details="" size="8897195" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar">
+						<origin-location is-local="false" location="http://typesafe.artifactoryonline.com/typesafe/repo/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5184214" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/docs/scalaz-core_2.10-7.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243547" time="0" location="/Users/alex/.ivy2/cache/org.specs2/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-scalaz-core_2.10">
+			<revision name="7.0.0" status="release" pubdate="20130219232304" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2533" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-core_2.10/7.0.0/specs2-scalaz-core_2.10-7.0.0.pom"/>
+				<caller organisation="euler" name="euler$sources_javadoc_2.10" conf="test, compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="specs2-scalaz-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243550" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/srcs/specs2-scalaz-core_2.10-7.0.0-sources.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-core_2.10/7.0.0/specs2-scalaz-core_2.10-7.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-core_2.10" type="jar" ext="jar" status="no" details="" size="8897198" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/jars/specs2-scalaz-core_2.10-7.0.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-core_2.10/7.0.0/specs2-scalaz-core_2.10-7.0.0.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-core_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5184214" time="0" location="/Users/alex/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/docs/specs2-scalaz-core_2.10-7.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/specs2/specs2-scalaz-core_2.10/7.0.0/specs2-scalaz-core_2.10-7.0.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.2" status="release" pubdate="20130606190543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
+				<caller organisation="euler" name="euler$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1058962" time="0" location="/Users/alex/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33909258" time="0" location="/Users/alex/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.2-javadoc.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/groups/scala-tools/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
