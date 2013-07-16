@@ -8,10 +8,10 @@ object Main extends App {
     //LargetProductInAGrid.max
     val s = System.nanoTime
 
-    NamesScores.read
+    FibonacciNumber.compute
 
     val f = System.nanoTime
-    println((f - s) / 1000000000.0)
+    println((f - s) / 1000000000.0 + " seconds")
   }
 
 }
