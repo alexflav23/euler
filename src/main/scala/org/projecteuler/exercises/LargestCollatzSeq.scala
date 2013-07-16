@@ -1,14 +1,13 @@
 package org.projecteuler.exercises
 
 import scala.annotation.tailrec;
-
 import scala.collection.mutable.HashMap;
+
 object LargestCollatzSeq {
 
   val map: HashMap[BigInt, BigInt] = new HashMap
   val limit = 1000000
 
-  @tailrec
   def rec(x: BigInt, count: BigInt = 1, original: BigInt): BigInt = {
     if (x == 1) {
       map.put(original, count)
