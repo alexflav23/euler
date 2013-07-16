@@ -11,7 +11,8 @@ resolvers ++= Seq(
 
 {
   libraryDependencies ++= Seq(
-    "org.specs2"              %% "specs2"            % "1.14"                  % "test"
+  "joda-time"               %  "joda-time"         % "2.2"                   % "compile",  
+  "org.specs2"              %% "specs2"            % "1.14"                  % "test"
   )
 }
 
