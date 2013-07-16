@@ -11,15 +11,11 @@ object NamesScores {
   }
 
   def read = {
-    println(getNameScore("COLIN"))
-    val numbers = Source.fromFile("names.in").getLines.toList;
-    val names = numbers(0).split(""",""").map(name => { name.substring(1, name.length - 1) }).sortWith(_ < _)
-
+    val names = Source.fromFile("names.in").getLines.next.split(""",""").map(name => { name.substring(1, name.length - 1) }).sortWith(_ < _)
     var sum = 0;
     for (i <- 0 to names.length - 1) {
       sum += getNameScore(names(i) * (i + 1))
     }
-
     println(sum)
   }
 }
