@@ -8,7 +8,7 @@ object Main extends App {
     //LargetProductInAGrid.max
     val s = System.nanoTime
 
-    println(MaximumSumPath.dynamic)
+    println(CountSundays.count)
 
     val f = System.nanoTime
     println((f - s) / 1000000000.0)
