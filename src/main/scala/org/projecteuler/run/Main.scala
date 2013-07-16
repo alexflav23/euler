@@ -8,7 +8,8 @@ object Main extends App {
     //LargetProductInAGrid.max
     val s = System.nanoTime
 
-    FibonacciNumber.compute
+    //FibonacciNumber.compute
+    println(LexicographicPermutations.compute)
 
     val f = System.nanoTime
     println((f - s) / 1000000000.0 + " seconds")

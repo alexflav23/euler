@@ -1,6 +1,7 @@
 package org.projecteuler.exercises
 
-import scala.collection.mutable.HashMap;
+import scala.collection.mutable.HashMap
+import scala.collection.immutable.Range;
 
 object NonAbundantSums {
   val limit = 28123
@@ -15,6 +16,10 @@ object NonAbundantSums {
       }
     }
     sum
+  }
+
+  def sumDiv(x: Int): Int = {
+    Range(1, x / 2 + 1, 1).filter(x % _ == 0).sum
   }
 
   def compute: BigInt = {

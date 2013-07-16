@@ -1,6 +1,7 @@
 package org.projecteuler.exercises
 
 import scala.collection.mutable.ListBuffer;
+import scala.annotation.tailrec;
 
 object FibonacciNumber {
 
@@ -40,23 +41,17 @@ object FibonacciNumber {
     result
   }
 
+  @tailrec
   def fib(a: ListBuffer[Int], b: ListBuffer[Int], index: Int, stop: Int): ListBuffer[Int] = {
-    if (b.length < stop) {
-      fib(b, sum(a, b), index + 1, stop)
-    } else {
+    if (b.length == stop) {
       println(index)
       b
+    } else {
+      fib(b, sum(a, b), index + 1, stop)
     }
   }
 
   def compute = {
-    var a: ListBuffer[Int] = new ListBuffer
-    a += 1;
-
-    var b: ListBuffer[Int] = new ListBuffer
-    b += 1;
-
-    val fn = fib(a, b, 2, 1000)
-
+    val fn = fib((new ListBuffer += 1), (new ListBuffer += 1), 2, 1000)
   }
 }
