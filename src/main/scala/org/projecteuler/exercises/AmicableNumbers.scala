@@ -23,7 +23,6 @@ object AmicableNumbers {
     for (i <- 1 to 10000) {
       val sum = countDivisors(i)._2
       val amicable = countDivisors(countDivisors(i)._2)._2
-      //      /println(s"$i -> $sum -> $amicable")
       if (amicable == i && map.get(sum) == None && i != sum) {
         map.put(i, sum)
       }

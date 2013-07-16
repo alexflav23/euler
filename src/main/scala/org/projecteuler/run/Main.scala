@@ -8,7 +8,7 @@ object Main extends App {
     //LargetProductInAGrid.max
     val s = System.nanoTime
 
-    AmicableNumbers.amicableNumbers
+    NamesScores.read
 
     val f = System.nanoTime
     println((f - s) / 1000000000.0)
