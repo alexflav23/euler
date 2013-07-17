@@ -22,27 +22,21 @@ object Problem46 {
 
   def isConjecture(x: Int): Boolean = {
     for (i <- 1 to x) {
-      val j = x - i
-      if (isSquare(j / 2) && isPrime(i)) {
-        val z = math.sqrt(j / 2).toInt
-        println(s"$x = 2 * $z\u00B2  + $i")
+      if (isSquare(math.sqrt((x - i) / 2)) && isPrime(i)) {
         return true;
       }
     }
     false
   }
 
-  def isSquare(x: Int): Boolean = {
-    val z = math.sqrt(x).toInt
-    z * z == x
+  def isSquare(x: Double): Boolean = {
+    x == x.toInt
   }
 
-  def compute: Int = {
-    for (i <- 1 to 10000 by 2) {
-      if (isComposite(i) && !isConjecture(i)) {
-        return i
-      }
-    }
-    0
+  def compute(i: Int): Int = {
+    if (isComposite(i) && !isConjecture(i)) {
+      i
+    } else
+      compute(i + 2)
   }
 }

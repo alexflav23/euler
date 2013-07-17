@@ -36,7 +36,6 @@ object Problem27 {
     ) {
       val x = produce(0, a, b, 0)
       if (x > max) {
-        println(s"$a $b -> $x")
         max = x;
         r = a; s = b;
       }
