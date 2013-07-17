@@ -33,7 +33,7 @@ object Problem46 {
     x == x.toInt
   }
 
-  def compute(i: Int): Int = {
+  def compute(i: Int = 1): Int = {
     if (isComposite(i) && !isConjecture(i)) {
       i
     } else
