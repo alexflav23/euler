@@ -1,5 +1,7 @@
 package org.projecteuler.exercises
 
+import scala.annotation.tailrec
+
 object Problem27 {
   def isPrime(n: Int): Boolean = {
     var test = true;
@@ -15,7 +17,16 @@ object Problem27 {
     math.pow(n, 2).toInt + a * n + b
   }
 
-  def compute: Int = {
+  def produce(n: Int, a: Int, b: Int, count: Int): Int = {
+    val exp = formula(n, a, b);
+    if (exp > 0 && isPrime(exp)) {
+      produce(n + 1, a, b, count + 1)
+    } else {
+      count
+    }
+  }
+
+  def compute = {
     var max = 0;
     var r = 0;
     var s = 0;
@@ -23,15 +34,10 @@ object Problem27 {
       a <- -999 to 999;
       b <- -999 to 999
     ) {
-      var n = 0;
-      var count = 0;
-      while (isPrime(formula(n, a, b))) {
-        count += 1;
-        n += 1;
-      }
-      if (count > max) {
-        println(max)
-        max = count;
+      val x = produce(0, a, b, 0)
+      if (x > max) {
+        println(s"$a $b -> $x")
+        max = x;
         r = a; s = b;
       }
     }
