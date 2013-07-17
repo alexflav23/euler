@@ -9,7 +9,7 @@ object Main extends App {
     val s = System.nanoTime
 
     //FibonacciNumber.compute
-    println(LexicographicPermutations.compute)
+    println(FibonacciNumber.compute)
 
     val f = System.nanoTime
     println((f - s) / 1000000000.0 + " seconds")
