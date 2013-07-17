@@ -14,7 +14,7 @@ object Problem46 {
     var test = true;
     for (i <- 2 to math.sqrt(n).toInt) {
       if (n % i == 0)
-        test = false
+        return false
     }
     if (n == 1) test = false
     test
@@ -25,7 +25,7 @@ object Problem46 {
       val j = x - i
       if (isSquare(j / 2) && isPrime(i)) {
         val z = math.sqrt(j / 2).toInt
-        //println(s"$x = 2 * $z\u00B2  + $i")
+        println(s"$x = 2 * $z\u00B2  + $i")
         return true;
       }
     }
