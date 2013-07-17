@@ -11,7 +11,8 @@ resolvers ++= Seq(
 
 {
   libraryDependencies ++= Seq(
-    "org.specs2"              %% "specs2"            % "1.14"                  % "test"
+  "org.scalaj"              %% "scalaj-time"       % "0.7"                   % "compile",
+  "org.specs2"              %% "specs2"            % "1.14"                  % "test"
   )
 }
 

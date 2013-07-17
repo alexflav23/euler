@@ -1,4 +1,5 @@
 .cache
-target
 .project
 .classpath
+target/
+
