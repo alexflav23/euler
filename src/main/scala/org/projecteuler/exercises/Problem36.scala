@@ -4,13 +4,11 @@ object Problem36 {
   def isPalindrom(num: String): Boolean = {
     num.length % 2 match {
       case 0 =>
-        val x = num.substring(0, num.length / 2);
-        val y = num.substring(num.length / 2, num.length).reverse;
-        x == y
+        num.substring(0, num.length / 2) ==
+          num.substring(num.length / 2, num.length).reverse;
       case 1 =>
-        val x = num.substring(0, (num.length - 1) / 2);
-        val y = num.substring((num.length - 1) / 2 + 1, num.length).reverse;
-        x == y
+        num.substring(0, (num.length - 1) / 2) ==
+          num.substring((num.length - 1) / 2 + 1, num.length).reverse;
     }
   }
 
