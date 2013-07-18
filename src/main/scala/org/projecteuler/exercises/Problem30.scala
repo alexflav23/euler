@@ -1,3 +1,4 @@
+package org.projecteuler.exercises
 
 object Problem30 {
 
@@ -9,8 +10,7 @@ object Problem30 {
     }
   }
 
-  def main(args: Array[String]) = {
-    val s = System.nanoTime
+  def compute: Int = {
     var total = 0
     var i = 4000
     while (i < 198000) {
@@ -19,8 +19,6 @@ object Problem30 {
       }
       i += 1
     }
-    println(total)
-    val f = System.nanoTime
-    println("Solution took " + (f - s) / 1000000 + " miliseconds")
+    total
   }
 }

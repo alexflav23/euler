@@ -18,11 +18,11 @@ object Problem48 {
     }
   }
 
-  def compute: Int = {
-    var result = 0;
-    var modulo: Int = 1000000
+  def compute: BigInt = {
+    var result = BigInt(0);
+    var modulo: BigInt = 1000000000
     for (i <- 1 to 1000) {
-      var temp = i;
+      var temp: BigInt = i;
       for (j <- 1 to i) {
         temp *= i
         temp %= modulo;
