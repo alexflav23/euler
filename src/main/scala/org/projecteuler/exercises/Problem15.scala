@@ -1,8 +1,8 @@
 package org.projecteuler.exercises
 
-object LatticePaths {
+object Problem15 {
 
-  def numberOfPaths: Int = {
+  def compute: Int = {
     val gridSize = 20
     var paths = 1
     for (i <- 0 until gridSize) {

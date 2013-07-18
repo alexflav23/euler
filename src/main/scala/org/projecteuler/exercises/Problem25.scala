@@ -3,7 +3,7 @@ package org.projecteuler.exercises
 import scala.collection.mutable.ListBuffer;
 import scala.annotation.tailrec;
 
-object FibonacciNumber {
+object Problem25 {
 
   @tailrec
   def fib(a: BigInt, b: BigInt, index: Int, stop: Int): BigInt = {

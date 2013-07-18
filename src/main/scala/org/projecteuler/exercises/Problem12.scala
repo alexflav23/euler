@@ -1,6 +1,6 @@
 package org.projecteuler.exercises
 
-object HighlyDivisibleTriangularNumber {
+object Problem12 {
 
   def countDivisors(x: Int): Int = {
     var divisors = 0;
@@ -16,13 +16,13 @@ object HighlyDivisibleTriangularNumber {
       divisors
   }
 
-  def smallestNumber = {
+  def compute: Int = {
     var number = 0;
     var x = 1
     while (countDivisors(number) < 500) {
       number = number + x;
       x = x + 1
     }
-    println(number)
+    number
   }
 }

@@ -3,7 +3,7 @@ package org.projecteuler.exercises
 import scala.annotation.tailrec;
 import scala.collection.mutable.HashMap;
 
-object LargestCollatzSeq {
+object Problem14 {
 
   val map: HashMap[BigInt, BigInt] = new HashMap
   val limit = 1000000
@@ -25,7 +25,7 @@ object LargestCollatzSeq {
     }
   }
 
-  def largestSeq = {
+  def compute = {
     var max: BigInt = 0;
     var number: BigInt = 0;
     for (i <- 2 to limit) {

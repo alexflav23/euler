@@ -3,7 +3,7 @@ package org.projecteuler.exercises
 import scala.collection.mutable.ListBuffer
 import scala.io._
 
-object MaximumSumPath {
+object Problem18 {
 
   val triangle: ListBuffer[ListBuffer[Int]] = new ListBuffer
 

@@ -1,6 +1,6 @@
 package org.projecteuler.exercises
 
-object LargetPalindrome {
+object Problem4 {
 
   def read = {
     println("working")

@@ -2,7 +2,7 @@ package org.projecteuler.exercises
 
 import scala.io.Source;
 
-object NamesScores {
+object Problem22 {
 
   def getNameScore(name: String): Int = {
     var sum = 0

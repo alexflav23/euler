@@ -2,7 +2,7 @@ package org.projecteuler.exercises
 
 import scala.collection.mutable.HashMap;
 
-object AmicableNumbers {
+object Problem21 {
 
   val map: HashMap[Int, Int] = new HashMap
 
@@ -18,7 +18,7 @@ object AmicableNumbers {
     (div, sum)
   }
 
-  def amicableNumbers = {
+  def compute: Int = {
     var total = 0;
     for (i <- 1 to 10000) {
       val sum = countDivisors(i)._2
@@ -28,7 +28,6 @@ object AmicableNumbers {
       }
     }
     map.foreach { case (key, value) => total += key + value }
-    println(total)
+    total
   }
-
 }

@@ -9,7 +9,7 @@ object Main extends App {
     val s = System.nanoTime
 
     //FibonacciNumber.compute
-    println(Problem46.compute())
+    println(Problem46.compute(1))
 
     val f = System.nanoTime
     println("Solution took " + (f - s) / 1000000.0 + " miliseconds")
