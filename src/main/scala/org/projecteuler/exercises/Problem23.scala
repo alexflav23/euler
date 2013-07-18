@@ -3,7 +3,7 @@ package org.projecteuler.exercises
 import scala.collection.mutable.HashMap
 import scala.collection.immutable.Range;
 
-object NonAbundantSums {
+object Problem23 {
   val limit = 28123
 
   val map: HashMap[Int, Int] = new HashMap

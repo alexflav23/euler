@@ -3,11 +3,11 @@ package org.projecteuler.exercises
 import scala.io._;
 import scala.collection.mutable.ListBuffer;
 
-object LargetProductInAGrid {
+object Problem11 {
 
   val data: ListBuffer[ListBuffer[Int]] = new ListBuffer;
 
-  def read = {
+  def read: Int = {
     Source.fromFile("grid.in").getLines.foreach(line => {
       val numbers: ListBuffer[Int] = new ListBuffer;
 
@@ -24,12 +24,7 @@ object LargetProductInAGrid {
       val list = up(x, y) :: down(x, y) :: left(x, y) :: right(x, y) :: upRight(x, y) :: upLeft(x, y) :: downLeft(x, y) :: downRight(x, y) :: Nil
       if (list.max > max) max = list.max
     }
-    println(max)
-  }
-
-  def max: Int = {
-    read;
-    0
+    max
   }
 
   def up(x: Int, y: Int): Int = {

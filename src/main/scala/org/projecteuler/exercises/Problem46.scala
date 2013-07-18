@@ -1,5 +1,7 @@
 package org.projecteuler.exercises
 
+import scala.annotation.tailrec
+
 object Problem46 {
   def isComposite(n: Int): Boolean = {
     var test = false;
@@ -33,6 +35,7 @@ object Problem46 {
     x == x.toInt
   }
 
+  @tailrec
   def compute(i: Int = 1): Int = {
     if (isComposite(i) && !isConjecture(i)) {
       i
