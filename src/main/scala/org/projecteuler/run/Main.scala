@@ -8,10 +8,9 @@ object Main extends App {
     //LargetProductInAGrid.max
     val s = System.nanoTime
 
-    //FibonacciNumber.compute
-    println(Problem46.compute(1))
+    println(Problem48.compute)
 
     val f = System.nanoTime
-    println("Solution took " + (f - s) / 1000000.0 + " miliseconds")
+    println("Solution took " + (f - s) / 1000000 + " miliseconds")
   }
 }
