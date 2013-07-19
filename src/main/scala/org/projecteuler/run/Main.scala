@@ -1,6 +1,7 @@
 package org.projecteuler.run
 
 import org.projecteuler.exercises._;
+import org.projecteuler.infoarena._;
 
 object Main extends App {
 
@@ -8,7 +9,7 @@ object Main extends App {
     //LargetProductInAGrid.max
     val s = System.nanoTime
     //FibonacciNumber.compute
-    println(Problem33.compute)
+    println(StirlingNumbers.compute)
 
     val f = System.nanoTime
     println("Solution took " + (f - s) / 1000000 + " miliseconds")
