@@ -18,7 +18,7 @@ object Problem43 {
 
   def compute: BigInt = {
     var x = BigInt(0)
-    "0123456789".permutations dropWhile (perm => { perm.substring(0, 1) == "0" }) foreach (number => { if (isValid(number)) x = x + BigInt(number) })
+    "0123456789".permutations foreach (number => { if (isValid(number)) x = x + BigInt(number) })
     x
   }
 }
