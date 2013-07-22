@@ -7,9 +7,9 @@ object Problem43 {
   }
 
   def isValid(perm: String): Boolean = {
-    makeNumber(perm(1), perm(2), perm(3)) % 2 == 0 &&
-      makeNumber(perm(2), perm(3), perm(4)) % 3 == 0 &&
-      makeNumber(perm(3), perm(4), perm(5)) % 5 == 0 &&
+    perm(3).asDigit % 2 == 0 &&
+      (perm(2).asDigit + perm(3).asDigit + perm(4).asDigit) % 3 == 0 &&
+      (perm(5).asDigit == 0 || perm(5).asDigit == 5) &&
       makeNumber(perm(4), perm(5), perm(6)) % 7 == 0 &&
       makeNumber(perm(5), perm(6), perm(7)) % 11 == 0 &&
       makeNumber(perm(6), perm(7), perm(8)) % 13 == 0 &&
@@ -18,7 +18,7 @@ object Problem43 {
 
   def compute: BigInt = {
     var x = BigInt(0)
-    "0123456789".permutations dropWhile (perm => { perm.substring(0, 1) == "0" }) dropWhile (perm => { !isValid(perm) }) foreach (number => { x = x + BigInt(number) })
+    "0123456789".permutations dropWhile (perm => { perm.substring(0, 1) == "0" }) foreach (number => { if (isValid(number)) x = x + BigInt(number) })
     x
   }
 }
