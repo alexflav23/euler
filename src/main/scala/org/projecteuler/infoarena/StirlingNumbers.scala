@@ -1,8 +1,11 @@
 package org.projecteuler.infoarena
 
+import scala.collection.mutable.HashMap;
+
 object StirlingNumbers {
   //s(n,m) = s(n-1,m-1) - (n-1)*s(n-1,m)  şi  S(n,m) = S(n-1,m-1) + m*S(n-1,m) .
 
+  val cache: HashMap[Tuple2[Int, Int], BigInt] = new HashMap
   def stirling(n: Int, m: Int): BigInt = {
     if (m == 1 || n == m || m == 0) {
       1
