@@ -2,6 +2,9 @@ package org.projecteuler.exercises
 
 object Problem35 {
 
+  lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i =>
+    ps.takeWhile { j => j * j <= i }.forall { k => i % k > 0 });
+
   def primesUnder(n: Int): List[Int] = {
     require(n >= 2)
 
