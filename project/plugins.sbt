@@ -1,20 +1,18 @@
-resolvers ++= Seq(
-  "typesafe" at "http://repo.typesafe.com/typesafe/releases/",
-  "sbt-plugin-releases2" at "http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/",
-  "Jawsy.fi M2 releases" at "http://oss.jawsy.fi/maven2/releases"
+libraryDependencies ++= Seq(
+    "com.github.siasia" %% "xsbt-web-plugin" % "0.12.0-0.2.11.1"
 )
 
-addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "0.3.0")
+resolvers ++= Seq(
+    "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/",
+    Classpaths.typesafeResolver,
+    "jgit-repo" at "http://download.eclipse.org/jgit/maven",
+    "Twitter Repo" at "http://maven.twttr.com/"
+)
 
-addSbtPlugin("fi.jawsy.sbtplugins" %% "sbt-jrebel-plugin" % "0.9.0")
+addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.5.0-SNAPSHOT")
 
-addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.2")
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0")
 
-addSbtPlugin("org.scala-sbt" % "sbt-closure" % "0.1.3")
+addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "0.5.0")
 
-addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.2.2")
-
-addSbtPlugin("me.lessis" % "less-sbt" % "0.1.10")
-
-addSbtPlugin("com.github.gseitz" % "sbt-release" % "0.6")
-
+addSbtPlugin("com.twitter" % "sbt-package-dist" % "1.1.0")

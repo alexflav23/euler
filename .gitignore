@@ -1,5 +1,11 @@
+project/target
 .cache
 .project
 .classpath
 target/
+.DS_Store
 
+
+# InteliJ files
+.idea_modules
+.idea
