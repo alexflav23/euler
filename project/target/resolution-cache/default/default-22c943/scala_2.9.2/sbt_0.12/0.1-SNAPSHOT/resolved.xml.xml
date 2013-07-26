@@ -4,7 +4,7 @@
 		module="default-22c943"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20130712161514"
+		publication="20130723182951"
 		e:scalaVersion="2.9.2" e:sbtVersion="0.12"
 	>
 		<description>
@@ -32,15 +32,13 @@
 		<artifact name="default-22c943" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-sbt" name="sbt" rev="0.12.3" conf="provided->default(compile)"/>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.12.4" conf="provided->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.9.2" conf="provided->default(compile)"/>
-		<dependency org="com.earldouglas" name="xsbt-web-plugin" rev="0.3.0" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
-		<dependency org="fi.jawsy.sbtplugins" name="sbt-jrebel-plugin" rev="0.9.0" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
-		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="2.1.2" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
-		<dependency org="org.scala-sbt" name="sbt-closure" rev="0.1.3" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
-		<dependency org="com.eed3si9n" name="sbt-buildinfo" rev="0.2.2" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
-		<dependency org="me.lessis" name="less-sbt" rev="0.1.10" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
-		<dependency org="com.github.gseitz" name="sbt-release" rev="0.6" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
+		<dependency org="com.github.siasia" name="xsbt-web-plugin_2.9.2" rev="0.12.0-0.2.11.1" conf="compile->default(compile)"/>
+		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.5.0-SNAPSHOT" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
+		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="2.1.0" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
+		<dependency org="com.typesafe.sbt" name="sbt-git" rev="0.5.0" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
+		<dependency org="com.twitter" name="sbt-package-dist" rev="1.1.0" conf="compile->default(compile)" e:scalaVersion="2.9.2" e:sbtVersion="0.12"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.9.2"/>
