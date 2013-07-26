@@ -6,20 +6,19 @@ object Problem38 {
     "123456789" forall (char => { x.count(char == _) == 1 })
   }
 
-  def pandigitialSeq(n: Int): String = {
+  def pandigitialSeq(n: Int, j: Int = 0, str: String = ""): String = {
     var str = "";
     var output = "";
-    for (j <- 1 to n) {
-      val res = n * j;
-      str = str.concat(res.toString);
-      if (str.length() > 9) {
-        return output;
-      } else {
-        if (str.length() == 9 && isPandigital(str)) {
-          return str;
-        }
+    val res = n * j;
+    str = str.concat(res.toString);
+    if (str.length() > 9) {
+      return output;
+    } else {
+      if (str.length() == 9 && isPandigital(str)) {
+        return str;
       }
     }
+
     output;
   }
 
