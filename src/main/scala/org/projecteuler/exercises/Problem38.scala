@@ -9,15 +9,34 @@ object Problem38 {
     true;
   }
 
+  def pandigitialSeq(n: Int): String = {
+    var str = "";
+    var output = "";
+    for (j <- 1 to n) {
+      val res = n * j;
+      if (str.length() > 9) {
+        return output;
+      }
+      str = str.concat(res.toString);
+      if (isPandigital(str)) {
+        output = str;
+      }
+    }
+    output;
+  }
+
   def compute: Int = {
 
     var max = 0;
-    for (i <- 1 to 1000; j <- 1 to 1000) {
-      val res = i * j;
-      if (isPandigital(i.toString.concat(j.toString).concat(res.toString)) && res > max) {
-        max = res;
+    for (i <- 1 to 10000) {
+      val str = pandigitialSeq(i);
+      if (str.length() > 0) {
+        val res = str.toInt;
+        if (res > max) {
+          max = res;
+        }
       }
     }
-    max
+    max;
   }
 }
