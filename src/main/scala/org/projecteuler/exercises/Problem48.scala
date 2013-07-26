@@ -5,7 +5,7 @@ object Problem48 {
     var result = BigInt(0);
     val modulo: BigInt = BigInt("10000000000")
     for (i <- 1 to 1000) {
-      result += BigInt(i).pow(i) % modulo
+      result += BigInt(i).pow(i);
     }
     result % modulo
   }
