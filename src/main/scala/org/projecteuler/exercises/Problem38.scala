@@ -3,10 +3,7 @@ package org.projecteuler.exercises
 object Problem38 {
 
   def isPandigital(x: String): Boolean = {
-    if (x.length != 9) return false
-    "123456789" foreach (char => { if (x.count(char == _) != 1) return false })
-
-    true;
+    "123456789" forall (char => { x.count(char == _) == 1 })
   }
 
   def pandigitialSeq(n: Int): String = {
@@ -14,19 +11,19 @@ object Problem38 {
     var output = "";
     for (j <- 1 to n) {
       val res = n * j;
+      str = str.concat(res.toString);
       if (str.length() > 9) {
         return output;
-      }
-      str = str.concat(res.toString);
-      if (isPandigital(str)) {
-        output = str;
+      } else {
+        if (str.length() == 9 && isPandigital(str)) {
+          return str;
+        }
       }
     }
     output;
   }
 
   def compute: Int = {
-
     var max = 0;
     for (i <- 1 to 10000) {
       val str = pandigitialSeq(i);
