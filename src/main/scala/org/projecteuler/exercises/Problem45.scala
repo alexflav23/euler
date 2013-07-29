@@ -7,13 +7,10 @@ object Problem45 {
   }
 
   def compute: Long = {
-    var i: Long = 143;
-    while (1 != 2) {
-      i += 1;
-      if (isPentagonal(i * (2 * i - 1))) {
-        return i * (2 * i - 1)
-      }
+    var i: Long = 144;
+    while (!isPentagonal(i * (2 * i - 1))) {
+      i += 1
     }
-    0
+    i * (2 * i - 1)
   }
 }
