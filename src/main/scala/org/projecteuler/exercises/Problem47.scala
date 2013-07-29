@@ -41,8 +41,6 @@ object Problem47 {
   }
 
   def compute: Int = {
-    println(decompose(15))
-    println(decompose(17))
     var c = 10;
     while (1 != 2) {
       if (areDistinct(getFactors(c), getFactors(c + 1), getFactors(c + 2), getFactors(c + 3))) {
