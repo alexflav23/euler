@@ -8,15 +8,17 @@ object Problem39 {
   def triplet(a: Int, b: Int, c: Int): Boolean = math.pow(c, 2) == math.pow(b, 2) + math.pow(a, 2)
 
   def compute: Int = {
-
-    for (p <- 1 to 1000; c <- 1 to p; a <- 1 to p - c) {
-      val b = c - a;
-      //println(s"$a + $b + $c = $p")
-      if (triplet(a, b, c)) {
-        results.put(c, 0);
-        results.update(c, results.get(c).get + 1);
+    var max = 0;
+    for (p <- 12 to 1000) {
+      var count = 0;
+      for (c <- 1 to p; a <- 1 until p - c) {
+        val b = p - c - a;
+        if ((a + b + c == p) && triplet(a, b, c)) {
+          count += 1;
+        }
       }
+      if (count > max) max = p;
     }
-    results.maxBy(_._2)._2;
+    max
   }
 }
