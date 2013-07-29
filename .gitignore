@@ -5,7 +5,6 @@ project/target
 target/
 .DS_Store
 
-
-# InteliJ files
+.settings
 .idea_modules
 .idea
