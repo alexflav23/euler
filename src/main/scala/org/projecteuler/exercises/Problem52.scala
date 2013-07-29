@@ -3,9 +3,7 @@ package org.projecteuler.exercises
 object Problem52 {
   def identical(x: Int): Boolean = {
     var l = List[String]()
-    for (i <- 1 to 6) {
-      l = (x * i).toString.sortWith(_ < _) :: l
-    }
+    1 to 6 foreach (num => { l = (x * num).toString.sortWith(_ < _) :: l });
     l forall (_ == l.head)
   }
   def compute: Int = {
