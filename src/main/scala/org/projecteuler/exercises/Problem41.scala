@@ -1,5 +1,7 @@
 package org.projecteuler.exercises
 
+import scala.annotation.tailrec;
+
 object Problem41 {
 
   def isPandigital(x: String): Boolean = {
@@ -7,21 +9,19 @@ object Problem41 {
     str forall (char => { x.count(char == _) == 1 })
   }
 
-  def isPrime(n: Int): Boolean = {
-    val end = math.sqrt(n).toInt
-    for (i <- 2 to end) {
-      if (n % i == 0) return false;
-    }
-    true
-  }
+  lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i =>
+    ps.takeWhile { j => j * j <= i }.forall { k => i % k > 0 });
 
-  def compute: Int = {
-    val limit = 999999999;
-    for (num <- limit to 0 by -2) {
-      if (num % 10 != 5 && isPandigital(num.toString) && isPrime(num)) {
-        return num;
+  @tailrec
+  def compute(max: Int = 0, primes: Stream[Int] = ps): Int = {
+    if (max.toString.length < 8) {
+      if (isPandigital(primes.head.toString)) {
+        compute(primes.head, primes.tail)
+      } else {
+        compute(max, primes.tail)
       }
+    } else {
+      max
     }
-    0;
   }
 }

@@ -1,34 +1,46 @@
 package org.projecteuler.exercises
 
 object Problem35 {
-
   lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i =>
     ps.takeWhile { j => j * j <= i }.forall { k => i % k > 0 });
 
-  def primesUnder(n: Int): List[Int] = {
-    require(n >= 2)
-
-    def rec(i: Int, primes: List[Int]): List[Int] = {
-      if (i >= n) primes
-      else if (prime(i, primes)) rec(i + 1, i :: primes)
-      else rec(i + 1, primes)
+  def isPrime(n: Int): Boolean = {
+    val end = math.sqrt(n).toInt
+    for (i <- 2 to end) {
+      if (n % i == 0) return false;
     }
-
-    rec(2, List()).reverse
+    true
   }
 
-  def prime(num: Int, factors: List[Int]): Boolean = factors.forall(num % _ != 0)
-
-  def compute: Int = {
+  def isCircularPrime(n: Int): Boolean = {
+    var y = n.toString;
     var count = 0;
+    if (y.length > 1) {
+      while (count < y.length - 1) {
+        y = y.substring(1, y.length) + y(0);
+        count += 1;
+        if (!isPrime(y.toInt)) {
+          return false;
+        }
+      }
+      true
+    } else {
+      true
+    }
+  }
 
-    val sieve = primesUnder(1000000);
-    val perms = Iterator
-    sieve foreach (prime => {
+  val limit = 1000000;
 
-    })
-
-    count
+  def compute(count: Int = 0, primes: Stream[Int] = ps): Int = {
+    if (primes.head < limit) {
+      if (isCircularPrime(primes.head)) {
+        compute(count + 1, primes.tail)
+      } else {
+        compute(count, primes.tail)
+      }
+    } else {
+      count
+    }
   }
 
 }
