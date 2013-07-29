@@ -38,8 +38,11 @@ object Problem37 {
     false
   }
 
-  def compute = {
+  def compute() = {
+    var count = 0;
+    while (count < 12) {
 
+    }
   }
 
 }
