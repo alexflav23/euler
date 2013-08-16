@@ -7,9 +7,7 @@ object Problem50 {
 
   def compute(sum: Int = 0, max: Int = 0, primes: Stream[Int] = ps, terms: List[Int] = Nil): Int = {
     if (sum < 1000000) {
-      val test = Problem46.isPrime(sum)
-      println(sum + " " + terms.size)
-      if (test == true) {
+      if (Problem46.isPrime(sum) == true) {
         compute(sum + primes.head, sum, primes.tail, primes.head :: terms)
       } else {
         compute(sum + primes.head, max, primes.tail, primes.head :: terms)

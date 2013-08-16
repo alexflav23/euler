@@ -2,16 +2,20 @@ package org.projecteuler.run
 
 import org.projecteuler.exercises._;
 import org.projecteuler.infoarena._;
-import scala.collection.mutable.ArrayBuffer;
 
 object Main extends App {
 
+  def timed[T](exec: => T) = {
+    val s = System.nanoTime
+    val result = exec
+    println("Result: " + result)
+    val f = System.nanoTime
+    println("Solution took " + (f - s) / 1000000 + " miliseconds")
+  }
   override def main(args: Array[String]) {
 
-    val s = System.nanoTime
-    println("Result: " + Problem34.compute)
-    val f = System.nanoTime
-
-    println("Solution took " + (f - s) / 1000000 + " miliseconds")
+    timed[Unit] {
+      Prime.getResult(1000000)
+    }
   }
 }
