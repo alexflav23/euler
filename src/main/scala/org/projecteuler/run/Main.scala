@@ -15,7 +15,7 @@ object Main extends App {
   override def main(args: Array[String]) {
 
     timed[Unit] {
-      Prime.getResult(1000000)
+      Problem50.compute();
     }
   }
 }
