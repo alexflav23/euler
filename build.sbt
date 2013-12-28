@@ -4,7 +4,7 @@ seq(com.github.theon.coveralls.CoverallsPlugin.coverallsSettings: _*)
 
 name := "euler"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.10.0"
 
 resolvers ++= Seq(
   "Java.net Maven2 Repository"     at "http://download.java.net/maven/2/",
@@ -15,7 +15,7 @@ resolvers ++= Seq(
 
 {
   libraryDependencies ++= Seq(
-  "org.specs2"              %% "specs2"            % "1.14"                  % "test"
+  "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
   )
 }
 
