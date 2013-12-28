@@ -1,3 +1,7 @@
+seq(ScctPlugin.instrumentSettings : _*)
+
+seq(com.github.theon.coveralls.CoverallsPlugin.coverallsSettings: _*)
+
 name := "euler"
 
 scalaVersion := "2.10.2"

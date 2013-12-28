@@ -1,0 +1,9 @@
+# Travis CI credentials
+
+language: scala
+
+scala: 
+ - "2.10.0"
+
+script: "./scripts/run_tests.sh"
+after_script: "sbt coveralls"
